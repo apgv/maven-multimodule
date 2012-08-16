@@ -1,0 +1,13 @@
+# compiled source #
+###################
+*.class
+
+# packages #
+############
+*.jar
+*.war
+
+# IDE files #
+#############
+*.iml
+*.idea
