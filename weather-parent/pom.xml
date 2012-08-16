@@ -8,11 +8,7 @@
   <packaging>pom</packaging>
 
   <name>weather-parent</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  <url>https://github.com/mecolombiano/maven-multimodule</url>
 
   <modules>
     <module>weather-domain</module>
@@ -20,6 +16,10 @@
     <module>weather-service</module>
     <module>weather-web</module>
   </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
   <dependencies>
     <dependency>
